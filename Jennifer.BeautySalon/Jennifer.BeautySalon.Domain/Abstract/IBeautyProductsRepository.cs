@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Jennifer.BeautySalon.Domain
+namespace Jennifer.BeautySalon.Domain.Abstract
 {
-    public class Class1
+    interface IBeautyProductsRepository
     {
     }
 }
