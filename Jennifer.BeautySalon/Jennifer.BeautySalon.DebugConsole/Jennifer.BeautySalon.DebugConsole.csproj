@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Jennifer.BeautySalon.Domain\Jennifer.BeautySalon.Domain.csproj">
+      <Project>{5bd96a2f-7c9d-4edc-8c7b-bd87201ad51d}</Project>
+      <Name>Jennifer.BeautySalon.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
