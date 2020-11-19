@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jennifer.BeautySalon.WebApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jennifer.BeautySalon.Domain", "Jennifer.BeautySalon.Domain\Jennifer.BeautySalon.Domain.csproj", "{5BD96A2F-7C9D-4EDC-8C7B-BD87201AD51D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jennifer.BeautySalon.UnitTests", "Jennifer.BeautySalon.UnitTests\Jennifer.BeautySalon.UnitTests.csproj", "{9518D59E-72FF-45D8-8563-366D69F732E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jennifer.BeautySalon.DebugConsole", "Jennifer.BeautySalon.DebugConsole\Jennifer.BeautySalon.DebugConsole.csproj", "{19B4CEA3-8063-4D8B-8DB0-F23EB0901AA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{5BD96A2F-7C9D-4EDC-8C7B-BD87201AD51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BD96A2F-7C9D-4EDC-8C7B-BD87201AD51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BD96A2F-7C9D-4EDC-8C7B-BD87201AD51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9518D59E-72FF-45D8-8563-366D69F732E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9518D59E-72FF-45D8-8563-366D69F732E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9518D59E-72FF-45D8-8563-366D69F732E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9518D59E-72FF-45D8-8563-366D69F732E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B4CEA3-8063-4D8B-8DB0-F23EB0901AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B4CEA3-8063-4D8B-8DB0-F23EB0901AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B4CEA3-8063-4D8B-8DB0-F23EB0901AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B4CEA3-8063-4D8B-8DB0-F23EB0901AA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
