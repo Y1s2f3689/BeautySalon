@@ -12,14 +12,28 @@ namespace Vic.SportsStore.WebApp.Controllers
     {
         public IProductsRepository Productsrepository { get; set; }
             = new EFProductRepository();
-        public ViewResult List()
+
+        public int PageSize = 3;
+        public ViewResult List(int page = 1)
         {
+            //1,2,3   4,5,6   7,8,9
             //M-V-C
             //M -> Productsrepository.Products
             //V -> View
             //C -> ProductController
 
-            return View(Productsrepository.Products);
+            var model = Productsrepository
+                .Products
+                .OrderBy(p => p.ProductId)
+                .Skip((page-1)*PageSize)
+                .Take(PageSize);
+
+            return View(model);
+               // repository
+               // .Products
+               // .OrderBy(p => p.ProductId)
+               // .Skip((page - 1) * PageSize)
+               // .Take(PageSize)); ;
         }
        
     }
