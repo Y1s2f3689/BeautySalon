@@ -25,7 +25,7 @@ namespace Jennifer.BeautySalon.Domain.Concrete
 };
         public IEnumerable<BeautyProduct> BeautyProducts
         {
-            get { return _BeautyProducts; }
+            get { return _Beautyproducts; }
         }
     }
 }
