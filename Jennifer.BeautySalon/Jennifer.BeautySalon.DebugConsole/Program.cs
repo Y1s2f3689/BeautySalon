@@ -14,10 +14,20 @@ namespace Jennifer.BeautySalon.DebugConsole
         {
             using (var ctx = new EFDbContext())
             {
-                var Beautyproduct = new BeautyProduct() { };
+                var Beautyproduct = new BeautyProduct()
+                {
+                    Name = "EyebrowBrush",
+                    Price = 25m,
+                    Description = "This is a beauty product.",
+                    Category = "BeautyProduct"
+                };
+
                 ctx.BeautyProducts.Add(Beautyproduct);
                 ctx.SaveChanges();
             }
+            Console.WriteLine("Done.");
+            Console.ReadLine();
         }
     }
 }
+
