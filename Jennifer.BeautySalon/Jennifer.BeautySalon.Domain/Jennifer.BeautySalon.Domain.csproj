@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IBeautyProductsRepository.cs" />
+    <Compile Include="Concrete\InMemoryBeautyProductRepository.cs" />
     <Compile Include="Entities\BeautyProduct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
