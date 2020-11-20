@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Jennifer.BeautySalon.Domain.Concrete;
+using Jennifer.BeautySalon.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +12,12 @@ namespace Jennifer.BeautySalon.DebugConsole
     {
         static void Main(string[] args)
         {
+            using (var ctx = new EFDbContext())
+            {
+                var Beautyproduct = new BeautyProduct() { };
+                ctx.BeautyProducts.Add(Beautyproduct);
+                ctx.SaveChanges();
+            }
         }
     }
 }
