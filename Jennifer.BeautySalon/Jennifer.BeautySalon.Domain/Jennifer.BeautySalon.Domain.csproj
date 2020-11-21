@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IBeautyProductsRepository.cs" />
+    <Compile Include="Concrete\EFBeautyProductRepository.cs" />
     <Compile Include="Concrete\EFDbContext.cs" />
     <Compile Include="Concrete\InMemoryBeautyProductRepository.cs" />
     <Compile Include="Entities\BeautyProduct.cs" />

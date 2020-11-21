@@ -11,7 +11,8 @@ namespace Jennifer.BeautySalon.WebApp.Controllers
     public class BeautyProductController : Controller
     {
         public IBeautyProductsRepository BeautyProductsRepository { get; set; }
-            = new InMemoryBeautyProductRepository();
+            = new EFBeautyProductRepository();
+
 
     public ViewResult List()
         {
