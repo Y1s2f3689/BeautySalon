@@ -1,0 +1,11 @@
+E:\PM\SportStore09\Jennifer.BeautySalon\Jennifer.BeautySalon.Domain\bin\Debug\Jennifer.BeautySalon.Domain.dll
+E:\PM\SportStore09\Jennifer.BeautySalon\Jennifer.BeautySalon.Domain\bin\Debug\Jennifer.BeautySalon.Domain.pdb
+E:\PM\SportStore09\Jennifer.BeautySalon\Jennifer.BeautySalon.Domain\obj\Debug\Jennifer.BeautySalon.Domain.csproj.CoreCompileInputs.cache
+E:\PM\SportStore09\Jennifer.BeautySalon\Jennifer.BeautySalon.Domain\obj\Debug\Jennifer.BeautySalon.Domain.dll
+E:\PM\SportStore09\Jennifer.BeautySalon\Jennifer.BeautySalon.Domain\obj\Debug\Jennifer.BeautySalon.Domain.pdb
+E:\PM\SportStore09\Jennifer.BeautySalon\Jennifer.BeautySalon.Domain\bin\Debug\Jennifer.BeautySalon.Domain.dll.config
+E:\PM\SportStore09\Jennifer.BeautySalon\Jennifer.BeautySalon.Domain\bin\Debug\EntityFramework.dll
+E:\PM\SportStore09\Jennifer.BeautySalon\Jennifer.BeautySalon.Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\PM\SportStore09\Jennifer.BeautySalon\Jennifer.BeautySalon.Domain\bin\Debug\EntityFramework.xml
+E:\PM\SportStore09\Jennifer.BeautySalon\Jennifer.BeautySalon.Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\PM\SportStore09\Jennifer.BeautySalon\Jennifer.BeautySalon.Domain\obj\Debug\Jennifer.BeautySalon.Domain.csproj.CopyComplete
