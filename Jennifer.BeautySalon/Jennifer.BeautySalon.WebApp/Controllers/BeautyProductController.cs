@@ -12,7 +12,8 @@ namespace Jennifer.BeautySalon.WebApp.Controllers
     {
         public IBeautyProductsRepository BeautyProductsRepository { get; set; }
             = new InMemoryBeautyProductRepository();
-        public ViewResult List()
+
+    public ViewResult List()
         {
             return View(BeautyProductsRepository.BeautyProducts);
         }
