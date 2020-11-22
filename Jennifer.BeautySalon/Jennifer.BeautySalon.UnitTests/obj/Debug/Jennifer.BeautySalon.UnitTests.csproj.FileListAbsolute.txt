@@ -31,8 +31,8 @@ E:\PM\BeautySalon\Jennifer.BeautySalon\Jennifer.BeautySalon.UnitTests\bin\Debug\
 E:\PM\BeautySalon\Jennifer.BeautySalon\Jennifer.BeautySalon.UnitTests\bin\Debug\EntityFramework.SqlServer.xml
 E:\PM\BeautySalon\Jennifer.BeautySalon\Jennifer.BeautySalon.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 E:\PM\BeautySalon\Jennifer.BeautySalon\Jennifer.BeautySalon.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-E:\PM\BeautySalon\Jennifer.BeautySalon\Jennifer.BeautySalon.UnitTests\obj\Debug\Jennifer.BeautySalon.UnitTests.csprojAssemblyReference.cache
 E:\PM\BeautySalon\Jennifer.BeautySalon\Jennifer.BeautySalon.UnitTests\obj\Debug\Jennifer.BeautySalon.UnitTests.csproj.CoreCompileInputs.cache
 E:\PM\BeautySalon\Jennifer.BeautySalon\Jennifer.BeautySalon.UnitTests\obj\Debug\Jennifer.BeautySalon.UnitTests.csproj.CopyComplete
 E:\PM\BeautySalon\Jennifer.BeautySalon\Jennifer.BeautySalon.UnitTests\obj\Debug\Jennifer.BeautySalon.UnitTests.dll
 E:\PM\BeautySalon\Jennifer.BeautySalon\Jennifer.BeautySalon.UnitTests\obj\Debug\Jennifer.BeautySalon.UnitTests.pdb
+E:\PM\BeautySalon\Jennifer.BeautySalon\Jennifer.BeautySalon.UnitTests\obj\Debug\Jennifer.BeautySalon.UnitTests.csprojAssemblyReference.cache

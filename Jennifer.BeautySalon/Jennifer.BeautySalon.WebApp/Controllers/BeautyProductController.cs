@@ -15,15 +15,25 @@ namespace Jennifer.BeautySalon.WebApp.Controllers
 
         public int PageSize = 3;
 
-        public ViewResult List(int page = 1)
+        public ViewResult List(int page = 1);
+    }
+        BeautyProductsListViewModel model = new BeautyProductsListViewModel()
 
         {
-            var model = BeautyProductsRepository
+            BeautyProducts = BeautyProductsRepository
               .BeautyProducts
               .OrderBy(p => p.BeautyProductId)
               .Skip((page - 1) * PageSize)
-              .Take(PageSize);
+              .Take(PageSize),
 
+        PagingInfo = new PagingInfo
+           {
+              CurrentPage = page,
+              ItemsPerPage = PageSize,
+              TotalItems = BeautyProductsRepository.BeautyProducts.Count()
+
+
+           };
             return View(model);
          }
         
