@@ -20,3 +20,4 @@ E:\PM\BeautySalon\Jennifer.BeautySalon\Jennifer.BeautySalon.Domain\obj\Debug\Jen
 E:\PM\BeautySalon\Jennifer.BeautySalon\Jennifer.BeautySalon.Domain\obj\Debug\Jennifer.BeautySalon.Domain.csproj.CopyComplete
 E:\PM\BeautySalon\Jennifer.BeautySalon\Jennifer.BeautySalon.Domain\obj\Debug\Jennifer.BeautySalon.Domain.dll
 E:\PM\BeautySalon\Jennifer.BeautySalon\Jennifer.BeautySalon.Domain\obj\Debug\Jennifer.BeautySalon.Domain.pdb
+E:\PM\BeautySalon\Jennifer.BeautySalon\Jennifer.BeautySalon.Domain\obj\Debug\Jennifer.BeautySalon.Domain.csprojAssemblyReference.cache
