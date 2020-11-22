@@ -13,10 +13,20 @@ namespace Jennifer.BeautySalon.WebApp.Controllers
         public IBeautyProductsRepository BeautyProductsRepository { get; set; }
             = new EFBeautyProductRepository();
 
+        public int PageSize = 3;
 
-    public ViewResult List()
+        public ViewResult List(int page = 1)
+
         {
-            return View(BeautyProductsRepository.BeautyProducts);
-        }
+            var model = BeautyProductsRepository
+              .BeautyProducts
+              .OrderBy(p => p.BeautyProductId)
+              .Skip((page - 1) * PageSize)
+              .Take(PageSize);
+
+            return View(model);
+         }
+        
+              
     }
 }
