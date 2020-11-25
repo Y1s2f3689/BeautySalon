@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Jennifer.BeautySalon.Domain.Entities;
+using Jennifer.BeautySalon.WebApp.Models;
 
 namespace Jennifer.BeautySalon.WebApp.Controllers
 {
@@ -15,28 +17,29 @@ namespace Jennifer.BeautySalon.WebApp.Controllers
 
         public int PageSize = 3;
 
-        public ViewResult List(int page = 1);
-    }
-        BeautyProductsListViewModel model = new BeautyProductsListViewModel()
-
+        public ViewResult List(int page = 1)
         {
-            BeautyProducts = BeautyProductsRepository
-              .BeautyProducts
-              .OrderBy(p => p.BeautyProductId)
-              .Skip((page - 1) * PageSize)
-              .Take(PageSize),
 
-        PagingInfo = new PagingInfo
-           {
-              CurrentPage = page,
-              ItemsPerPage = PageSize,
-              TotalItems = BeautyProductsRepository.BeautyProducts.Count()
+            {
+                BeautyProductsListViewModel model = new BeautyProductsListViewModel
 
+                {
+                    BeautyProducts = BeautyProductsRepository
+                    .BeautyProducts
+                    .OrderBy(p => p.BeautyProductId)
+                    .Skip((page - 1) * PageSize)
+                    .Take(PageSize),
 
-           };
-            return View(model);
-         }
-        
-              
-    }
+                    PagingInfo = new PagingInfo
+                    {
+                        CurrentPage = page,
+                        ItemsPerPage = PageSize,
+                        TotalItems = BeautyProductsRepository.BeautyProducts.Count()
+                    };
+
+                return View(model);
+                }
+                
+            }
+        }
 }
